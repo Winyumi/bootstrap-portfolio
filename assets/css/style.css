@@ -27,6 +27,11 @@ img {
 
 
 /* Common Styles */
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
 img.float-md-left {
     margin: 0 1em 0.5em 0;
 }

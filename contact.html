@@ -11,59 +11,61 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="text-center text-md-left">
-                        <h1>Winson Quon</h1>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="text-center text-md-left">
+                            <h1>Winson Quon</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <nav class="navbar navbar-expand justify-content-center justify-content-md-end">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">About</a>
+                                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-item nav-link" href="contact.html">Contact</a>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <nav class="navbar navbar-expand justify-content-center justify-content-md-end">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link" href="index.html">About</a>
-                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                            <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        </div>
-                    </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <section>
+                            <h2>Contact</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="e.g. John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="e.g. myname@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </section>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <section>
-                        <h2>Contact</h2>
-                        <form>
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="e.g. John Smith">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="e.g. myname@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea name="message" class="form-control" id="message" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <span class="copyright">Copyright &copy; 2019 Winson Quon</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <span class="copyright">Copyright &copy; 2019 Winson Quon</span>
-                </div>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
