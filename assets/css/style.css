@@ -3,6 +3,11 @@
 /* Basic Styles */
 
 
+/* Header */
+.navbar {
+    padding: 0;
+}
+
 /* Sticky Footer */
 html {
     position: relative;
