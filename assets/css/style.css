@@ -123,3 +123,11 @@ footer {
     box-sizing: border-box;
     background-color: #f5f5f5;
 }
+
+
+/* Forms */
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
