@@ -91,6 +91,31 @@ header .navbar .nav-link:last-child {
 }
 
 
+/* Main */
+main section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px 30px 30px;
+    margin: 30px 0;
+}
+main section::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+main section h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.1em;
+    color: #4aaaa5;
+    margin: 0.83em 0;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ddd;
+    cursor: default;
+}
+
+
 /* Sticky Footer */
 html {
     position: relative;
