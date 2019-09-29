@@ -71,7 +71,7 @@ header .navbar-expand .navbar-nav .nav-link {
 header .navbar .nav-link:hover {
     text-decoration: underline;
 }
-header .navbar .nav-link.current {
+header .navbar .nav-link.active {
     font-weight: bold;
 }
 header .navbar .nav-link:first-child {
