@@ -1,11 +1,69 @@
 @charset "utf-8";
 
 /* Basic Styles */
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    background-image: url('../images/funky-lines.png');
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #777;
+}
+a {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
+/* Common Styles */
+.fl {
+    float: left;
+    margin: 0 1em 0.5em 0;
+}
+.fr {
+    float: right;
+    margin: 0 0 0.5em 1em;
+}
 
 /* Header */
-.navbar {
+header {
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.1em;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    padding: 15px 35px;
+    cursor: default;
+    /* transition: font-size 0.25s, padding 0.25s; */
+}
+header .navbar {
     padding: 0;
+}
+@media only screen and (min-width: 576px) {
+    header h1 {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 576px) {
+    header .container {
+        padding: 0;
+    }
 }
 
 /* Sticky Footer */
