@@ -50,7 +50,6 @@ header h1 {
     margin: 0;
     padding: 15px 35px;
     cursor: default;
-    /* transition: font-size 0.25s, padding 0.25s; */
 }
 header .navbar {
     padding: 0;
