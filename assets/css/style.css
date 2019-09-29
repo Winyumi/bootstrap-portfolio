@@ -154,11 +154,11 @@ textarea {
     min-width: 100%;
     max-width: 100%;
 }
-input::placeholder {
+.form-control::placeholder {
     opacity: 0.5;
     transition: opacity 0.25s;
 }
-input:focus::placeholder {
+.form-control:focus::placeholder {
     opacity: 0;
 }
 
