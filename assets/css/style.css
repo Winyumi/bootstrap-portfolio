@@ -118,10 +118,20 @@ main section h2 {
 
 /* Footer */
 footer {
-    height: 90px;
-    padding-top: 45px;
+    height: 60px;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
     box-sizing: border-box;
-    background-color: #f5f5f5;
+    color: #999;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+}
+footer .copyright {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0.5em 0;
+    cursor: default;
 }
 
 
